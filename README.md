@@ -2,9 +2,9 @@
 Simple Terraform to practice EFS.
 
 The code:
-  Launches an EFS with mount targets in 2 different AZs
-  Lauches two EC2 instances in separate AZs and run bacics user data to install nfs utilities
-  Output the public IPv4 of each instance and EFS Mount Target
+  - Launches an EFS with mount targets in 2 different AZs
+  - Lauches two EC2 instances in separate AZs and run bacics user data to install nfs utilities
+  - Output the public IPv4 of each instance and EFS Mount Target
 
 Once deployed connect to each instance and mount you EFS to the desired folder.
 
